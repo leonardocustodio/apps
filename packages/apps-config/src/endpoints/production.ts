@@ -17,12 +17,12 @@ export * from './productionRelayPolkadot.js';
 //
 // IMPORTANT: Alphabetical based on text
 export const prodChains: Omit<EndpointOption, 'teleport'>[] = [
-  {
-    info: '3dpass',
+    {
+    info: 'enjin',
     providers: {
-      '3dpass': 'wss://rpc2.3dpass.org'
+      'Enjin': 'wss://rpc.relay.blockchain.enjin.io'
     },
-    text: '3DPass',
+    text: 'Enjin',
     ui: {
       color: '#323232',
       logo: chains3dpassSVG
